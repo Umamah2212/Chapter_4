@@ -41,3 +41,56 @@ Hey, Ahmad show me your progress!
 Hey, Sadia show me your progress!
  Good JOB.
 }
+# range()
+for value in range(1, 5):
+    print(value)
+
+numbers = list(range(1, 6))
+print(numbers)
+# Output [1, 2, 3, 4, 5]
+
+# my example
+even_numbers = list(range(2,15,2))
+print(even_numbers)
+# Output: [2, 4, 6, 8, 10, 12, 14]
+
+squares = []
+for value in range(1, 11):
+    square = value ** 2
+    squares.append(square)
+print(squares)
+# Output {
+[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+}
+# my example
+squares = []
+for value in range(1, 11):
+    square = value ** 2
+    squares.append(square)
+    print(squares)
+# Output: {
+[1]
+[1, 4]
+[1, 4, 9]
+[1, 4, 9, 16]
+[1, 4, 9, 16, 25]
+[1, 4, 9, 16, 25, 36]
+[1, 4, 9, 16, 25, 36, 49]
+[1, 4, 9, 16, 25, 36, 49, 64]
+[1, 4, 9, 16, 25, 36, 49, 64, 81]
+[1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+}
+
+squares2 = []
+for value in range(1,11):
+    squares2.append(value**2)
+print(squares2)
+# Output: [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
+# Simple Statistics
+digits = [1, 3, 5, 7, 9, 11, 13, 15, 17]
+min(digits)        # Output: 1
+max(digits)        # Output: 17
+sum(digits)        # Output: 81
+
+List Comprehensions
