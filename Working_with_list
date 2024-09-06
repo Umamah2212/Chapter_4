@@ -1,0 +1,43 @@
+# for loop simple
+magicians = ['alice', 'david', 'carolina']
+for magician in magicians:
+    print(magician)
+#Output{
+alice
+david
+carolina}
+
+magicians = ['alice', 'david', 'carolina']
+for magician in magicians:
+    print(f"{magician.title()}, that was a great trick!")
+# Output {
+Alice, that was a great trick!
+David, that was a great trick!
+Carolina, that was a great trick!
+}
+
+# my example_1
+
+List_1 = ['Saad', 'Ahmad', 'hina', 'sadia']
+for items in List_1:
+    print(f'{items.title()}, You have done a great job')
+# Output {
+Saad, You have done a great job
+Ahmad, You have done a great job
+Hina, You have done a great job
+Sadia, You have done a great job}
+
+
+# my example_2
+
+List_1 = ['Saad', 'Ahmad', 'hina', 'sadia']
+for items in List_1:
+    print(f"Hey, {items.title()} show me your progress!\n Good JOB.")
+# Output{
+Hey, Saad show me your progress!
+ Good JOB.
+Hey, Ahmad show me your progress!
+ Good JOB.
+Hey, Sadia show me your progress!
+ Good JOB.
+}
